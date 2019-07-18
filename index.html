@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <title>Giftastic</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
-<body>
-   <h1>Giftastic Search!</h1> 
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-   <div id="buttons-view"></div>
+   <title>Giftastic</title>
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+   <div id=test></div>
+   <div id="tvshowButtons"></div>
+
+   <h1>Giftastic Search!</h1>
+   <!-- Button triggers new tvshow to be added -->
+
+   <!-- <div class="input-group mb-3">
+      <input type="text" class="form-control" id="add-tvshow" placeholder="Recipient's username"
+         aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+         <button class="btn btn-outline-secondary" type="submit" value="add" id="addon">go</button>
+      </div>
+   </div> -->
+   <div id="tvshowButtons"></div>
 
    <form id="tvshow-form">
-     <label for="tvshow-input">Add a tvshow Yo!</label>
-     <input type="text" id="tvshow-input">
-     <br>
-
-     <!-- Button triggers new tvshow to be added -->
-     <input id="add-tvshow" type="submit" value="Add a tvshow, Yo!">
+      <label for="tvshow-input">Add a tvshow Yo!</label>
+      <input type="text" id="tvshow-input"><br>
+      
+      <input id="add-tvshow" type="submit" value="add a tvshow, yo">
    </form>
+   <div id="giftastic"></div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script type="text/javascript"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+   </script>
+   <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
+
 </html>
